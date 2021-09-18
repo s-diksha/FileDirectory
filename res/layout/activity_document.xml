@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".document">
+
+    <TextView
+        android:id="@+id/doc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="4dp"
+        android:text="Documents"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginRight="-3dp"
+        android:background="#73716c" />
+
+    <ImageView
+        android:id="@+id/word_image"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@drawable/word" />
+
+    <ImageView
+        android:id="@+id/ppt_image"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/ppt" />
+
+    <ImageView
+        android:id="@+id/pdf_image"
+        android:layout_width="45dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        app:srcCompat="@drawable/pdf" />
+
+    <ImageView
+        android:id="@+id/excel_image"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@drawable/excel" />
+
+    <ImageView
+        android:id="@+id/text_image"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        app:srcCompat="@drawable/document" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#73716c" />
+
+    <ImageView
+        android:id="@+id/create_doc_image"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="295dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/create_doc"
+        />
+
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="351dp"
+        android:layout_marginLeft="351dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/menu" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="388dp"
+        android:layout_height="717dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="109dp" />
+
+    <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/arrow_back" />
+
+</RelativeLayout>
